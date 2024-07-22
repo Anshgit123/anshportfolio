@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+.logo{
+    display:block;
+    margin:0 auto;
+    left:0px;
+    height: 100px;
+    width:100px;
+    background-color: #252d5d;
+    border-radius:50%;
+    border:10px solid;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1710093072220-3fa669053619?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMGluc2VjdXJpdHl8ZW58MHx8MHx8fDA%3D') no-repeat center center/cover;
+    color:white;
+    text-align: center;
+    padding: 120px 20px;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background:white /* Semi-transparent background for text readability */
+    border-radius : 10px;
+}
+
+.hero-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: square;
+    padding: 0;
+    left:0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.7em;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: #fff;
+}
